@@ -1,0 +1,33 @@
+function verificar() {
+
+    console.log("true")
+    var n1 = document.getElementById("n1").innerHTML;
+    var n2 = document.getElementById("n2").value;
+
+
+    Math.random(n1);
+    if (n1 === n2) {
+        alert("Acertou!");
+    } else {
+        alert("Errou!");
+    }
+    resetar();
+}
+
+
+
+
+
+function resetar() {
+
+    this.document.getElementById("n2").focus();
+
+
+    document.getElementById("n2").focus();
+    document.getElementById("n2").value = "";
+    var r = Math.floor(Math.random() * 100);
+    document.getElementById("n1").innerHTML = r;
+
+
+
+}
