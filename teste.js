@@ -1,3 +1,4 @@
+
 function verificar() {
 
     console.log("true")
@@ -7,9 +8,16 @@ function verificar() {
 
     Math.random(n1);
     if (n1 === n2) {
-        alert("Acertou!");
+      
+        var resultado=document.createElement("h2");
+        resultado.innerText="ACERTOU!";
+        document.body.appendChild(resultado);
     } else {
-        alert("Errou!");
+        
+        var resultado=document.createElement("h2");
+        resultado.innerText="ERROU!"+" R:"+n1;
+        resultado.className="errou";
+        document.body.appendChild(resultado);
     }
     resetar();
 }
