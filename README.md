@@ -1,7 +1,8 @@
-Meu primeiro modulo Git.
+
 Exemplo de uma app de adivinha.
 
-My first git project.
-Example of a Guess App.
 
-Made by paichato
+Example of a Guess App. Guess the number on the orange box.
+
+![banner](https://github.com/paichato/modulogit/blob/main/modulo-git.PNG)
+
