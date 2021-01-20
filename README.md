@@ -1,8 +1,14 @@
-#Example of a Guess App
+# Example of a Guess App
 
 Exemplo de uma app de adivinha.
 
  Guess the number on the orange box.
+ 
+ ### How to Guess
+ 1. Put a number from 0-100;
+ 2. Press the guess numer;
+ 3. See if you guessed right.
+ 
 ### Languages and Tools 🛠 
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)
@@ -13,6 +19,12 @@ Exemplo de uma app de adivinha.
 ![VS Code](http://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=ffffff)
 ![Windows](http://img.shields.io/badge/-Windows-0078D6?style=flat-square&logo=windows&logoColor=ffffff)
 
-###What the App Looks like
+### User Stories
+-user can guess a number<br/>
+-user can hover the orange box for hint<br/>
+-user can see the score after guessing<br/>
+-user can see the right answer after guessing
+
+### What the App Looks like
 
 ![banner](https://github.com/paichato/modulogit/blob/main/modulo-git.PNG)
