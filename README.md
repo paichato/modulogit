@@ -27,4 +27,4 @@ Exemplo de uma app de adivinha.
 
 ### What the App Looks like
 
-![banner](https://github.com/paichato/modulogit/blob/main/modulo-git.PNG)
+
